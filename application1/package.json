@@ -5,7 +5,7 @@
     "node": ">=14.18.0"
   },
   "scripts": {
-    "build": "lerna run prepare",
+    "build": "yarn --ignore-engines && lerna run prepare",
     "start": "yarn --cwd browser-app start"
   },
   "devDependencies": {

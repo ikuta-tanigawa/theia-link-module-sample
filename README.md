@@ -1,9 +1,9 @@
-## Build Steps
+## Build and Execute Steps
 
 ```
 $ cd common-modules
 $ yarn build
-$ cd ..
-$ cd application1
+$ cd ../application1
 $ yarn build
+$ yarn start
 ```

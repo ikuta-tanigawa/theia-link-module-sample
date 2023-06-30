@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "engines": {
+    "yarn": ">=1.7.0 <2",
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "build": "lerna run prepare"
+  },
+  "devDependencies": {
+    "lerna": "2.4.0"
+  },
+  "workspaces": [
+    "hello-world"
+  ]
+}

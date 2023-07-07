@@ -8,12 +8,13 @@
     "lib",
     "src"
   ],
-  "dependencies": {
-    "@theia/core": "latest"
+  "peerDependencies": {
+    "@theia/core": "^1.0.0"
   },
   "devDependencies": {
     "rimraf": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "@theia/core": "latest"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn run build",

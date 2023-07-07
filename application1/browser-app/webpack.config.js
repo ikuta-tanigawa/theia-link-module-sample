@@ -5,6 +5,11 @@
 // @ts-check
 const config = require('./gen-webpack.config.js');
 
+config[0].resolve = {
+  ...(config[0].resolve ?? {}),
+  symlinks: false,
+};
+
 /**
  * Expose bundled modules on window.theia.moduleName namespace, e.g.
  * window['theia']['@theia/core/lib/common/uri'].
